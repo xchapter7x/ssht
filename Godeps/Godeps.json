@@ -1,0 +1,19 @@
+{
+	"ImportPath": "github.com/xchapter7x/ssht",
+	"GoVersion": "go1.5.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/kr/pty",
+			"Comment": "release.r56-29-gf7ee69f",
+			"Rev": "f7ee69f31298ecbe5d2b349c711e2547a617d398"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh",
+			"Comment": "null-236",
+			"Rev": "'69e2a90ed92d03812364aeb947b7068dc42e561e'"
+		}
+	]
+}
