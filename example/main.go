@@ -9,11 +9,15 @@ import (
 func main() {
 	var wg sync.WaitGroup
 	wg.Add(1)
-	ssht.StartSSHServer(ssht.SSHTestServerConfig{
+	ssh := &ssht.SSHTestServer{
 		AllowPasswordAuthN: false,
 		Username:           "joe",
 		Password:           "user",
 		AllowKeyAuthN:      true,
-	})
+		FakeResponseBytes:  []byte(`this is a test`),
+		SSHCommandMatch:    "ls -lha",
+	}
+	ssh.Start()
 	wg.Wait()
+	ssh.Close()
 }
