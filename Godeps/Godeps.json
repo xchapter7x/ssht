@@ -11,6 +11,24 @@
 			"Rev": "f7ee69f31298ecbe5d2b349c711e2547a617d398"
 		},
 		{
+			"ImportPath": "github.com/onsi/ginkgo",
+			"Comment": "v1.2.0-34-ge43390e",
+			"Rev": "e43390e35a4a88f3f95d5ddf9055efb7a1170469"
+		},
+		{
+			"ImportPath": "github.com/onsi/gomega",
+			"Comment": "v1.0-75-g0fe2044",
+			"Rev": "0fe204460da2c8fa1babcaac196e694de8f1aaa1"
+		},
+		{
+			"ImportPath": "github.com/op/go-logging",
+			"Rev": "dfaf3dff9b631bc4236201d90d41ee0de9202889"
+		},
+		{
+			"ImportPath": "github.com/xchapter7x/lo",
+			"Rev": "aa2602d0e8e8647f0ce7b53109b37040941915aa"
+		},
+		{
 			"ImportPath": "golang.org/x/crypto/ssh",
 			"Comment": "null-236",
 			"Rev": "'69e2a90ed92d03812364aeb947b7068dc42e561e'"
